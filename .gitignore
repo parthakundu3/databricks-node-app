@@ -1,0 +1,79 @@
+# === Environment variables ===
+.env
+.env.*
+!.env.example
+
+# === Node.js / NPM ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# === Logs ===
+logs/
+*.log
+log/
+
+# === OS generated files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# === IDE / Editor files ===
+.vscode/
+.idea/
+*.sublime-*
+*.iml
+.project
+.classpath
+
+# === Build / temporary output ===
+dist/
+build/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# === Databricks sensitive files ===
+*.key
+*.pem
+*.crt
+*.der
+*.p12
+*.pfx
+
+# === JWT secrets (if stored as files) ===
+jwtRS256.key
+jwtRS256.key.pub
+
+# === Testing coverage ===
+coverage/
+.nyc_output/
+
+# === Docker ===
+.dockerignore
+Dockerfile
+*.dockerfile
+
+# === Databricks Apps specific ===
+. databricks-*-local
+.databricks/
+
+# === Backup / archives ===
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.bak
+*.old
